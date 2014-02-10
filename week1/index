@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> My Sick webpage</title>
+		<link rel="stylesheet" href="./stylesheets/style.css">
+		<!-- <style> to insert css style for page, but not  necessary since we have link rel-->
+	</head>
+	<body>
+		<h1> 
+			My awesome page 
+		</h1>
+		<p> 	
+			some content about me 
+		</p>
+		<p> 
+			some more content about me 
+		</p>
+		<a href="http://www.google.com"> 		Google 
+		</a>
+
+	</body>
+</html>

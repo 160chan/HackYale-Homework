@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title> My First Website </title>
+	</head>
+	
+	<body>
+		<a href = "https://github.com/160chan"
+			<p> Happy Smile Everyday </p>
+			<!-- picture is in week0 folder on computer, but will also work on github??-->
+      		<img src = "imafisherman.jpg" ALT = "i'm a fisherman">
+      		<img src = "./myface.jpg" ALT = "happy smile everyday" HR WIDTH = 50 HR HEIGHT = 50>
+      		
+		</a>
+		<div> </div>
+		<a href = "./myfavwebsites.html"> My Favorite Websites </a>
+	</body>
+</html>
+
+

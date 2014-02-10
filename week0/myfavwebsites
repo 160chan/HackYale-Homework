@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <!-- Comments work like this -->
+  <head>
+    <!-- Remember, nothing in the head shows up on the page! -->
+    <title>My favorite websites</title>
+  </head>
+  <body>
+    <!-- Remember links can enclose anything! -->
+    <h1> My favorite websites! </h1>
+      <ul>
+        <li><a href="http://www.google.com/">Google</a></li>
+        <li><a href="http://www.facebook.com/">Facebook</a></li>
+        <li><a href="http://www.nealite.fr/">Nealite</a></li>
+        <li><a href="http://fourhourchef.com/">The 4-Hour Chef</a></li>
+        <li><a href="http://americancitizensfortaiwan.org/">American Citizens for Taiwan</a></li>
+      </ul>
+    <a href = "./index.html">Back</a>
+  </body>
+</html>
+
