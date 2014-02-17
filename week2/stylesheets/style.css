@@ -1,0 +1,35 @@
+body {
+	/*Default body has margin and padding sometimes */
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+	font: 16px/20px 'Helvetica' sans-serif; /*16px=font-size. 20px=leading*/
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+ul {
+	padding-left: 0; /* don't use px */
+}
+
+.background {
+	border: 1pt solid #1e8564;
+	background-color: #09c170;
+	/* padding: 10px; */
+}
+
+.i-b {
+	display: inline-block;
+	padding: 10px;
+	margin-right: 10px;
+	width: 200px;
+	height: 100px;
+	border: 1pt solid #eee;
+	background-color: #ddd;
+	line-height: 100px; 
+	/* in body, we set line-height to 20px. here we set it to 100px, same as height, to center content vertically*/
+	text-align: center;
+	font-size: 30px;
+}

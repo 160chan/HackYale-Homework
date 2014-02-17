@@ -6,3 +6,10 @@
 	h1 {
 		font-weight: normal;
 	}
+
+	p {
+			color: red;
+	}
+		.blue-text { <!-- the dot style declaration
+			color: blue;
+		}
