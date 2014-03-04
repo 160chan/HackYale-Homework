@@ -7,14 +7,14 @@
 </head>
 <body>
 	
-	<header>
+	<header> <!--so that the width goes across whole page -->
 		<div class="wrap">
 			<p class="header">Frances Chan</p>
 			<nav>
 				<ul>
-				<li><a class="header" href="./index.html">Home</a></li>
-				<li><a class="header" href="../week0/myfavwebsites">Links</a></li> 		
-				<li><a class="header" href="../week0/index">Biography</a></li>			
+				<li><a class="nav" href="./index.html">Home</a></li>
+				<li><a class="nav" href="../week0/myfavwebsites">Links</a></li> 		
+				<li><a class="nav" href="../week0/index">Biography</a></li>			
 				</ul>
 			</nav>
 		</div>
@@ -24,78 +24,83 @@
 		<div id="banner">
 			<h1>CANADA! Who'd've GUESSED?!</h1>
 		</div>
-		<!--end header-->
+	</div>
 
-		<div class="content" id="top">
-	<!--		<div class="row1"> -->
-				<ul>
-					<li class="threecolumns">
-						<h2>Independence</h2>
-						<a href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">
-							<img src="./images/canadaflag1.3.png" alt="Flag of Canada" WIDTH = 285 HEIGHT = 220>
-						</a> 
-						<p>Canada gained independence only 30 years ago. Just a bit late to the party!</p>
-						<a class="content" href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">Learn more >></a>
-					</li>
-					<li class="threecolumns">
-						<h2>Invasions</h2>
-						<a href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">
-							<img src="./images/canadaflag2.3.png" alt="Flag of Canada" WIDTH = 285 HEIGHT = 220>
-						</a> 
-						<p>During the War of 1812, American forces attempted to invade Canada, expecting to be welcomed as liberators. They were repelled. </p>
-						<a class="content" href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">Learn more >></a>
-					</li>
-					<li class="threecolumns">
-						<h2>Internment</h2>
-						<a href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">
-							<img src="./images/canadaflag3.3.png" alt="Flag of Canada" WIDTH = 285 HEIGHT = 220>
-						</a> 
-						<p>Canada also interned their citizens of Japanese descent during WWII.</p>
-						<a class="content" href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">Learn more >></a>
-					</li>
-				</ul>
-			</div>
-
-
-			<!-- end of div.content#top -->
-		<!--	<div class="row2"> -->
-			<!--	<div class="content"> -->
-			<div class="content">
-				<div id="bottom"> <!--do i really need id=bottom?? -->
-				<fieldset>
-				<div class="leftcontent">
+	<div class="content"> <!--so that the width goes across whole page -->
+		<div class="wrap">
+			<ul class="content">
+				<li class="threecolumns">
+					<h2>Independence</h2>
+					<a href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">
+						<img src="./images/canadaflag2.3.png" alt="Flag of Canada" WIDTH = 296 HEIGHT = 220>
+					</a> 
+					<p>Canada gained independence only 30 years ago. Just a bit late to the party!</p>
+					<a class="content" href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">Learn more >></a>
+				</li>
+				<li class="threecolumns">
+					<h2>Invasions</h2>
+					<a href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">
+						<img src="./images/canadaflag2.3.png" alt="Flag of Canada" WIDTH = 296 HEIGHT = 220>
+					</a> 
+					<p>During the War of 1812, American forces attempted to invade Canada, expecting to be welcomed as liberators. They were repelled. </p>
+					<a class="content" href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">Learn more >></a>
+				</li>
+				<li class="threecolumns last">
+					<h2>Internment</h2>
+					<a href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">
+						<img src="./images/canadaflag2.3.png" alt="Flag of Canada" WIDTH = 296 HEIGHT = 220>
+					</a> 
+					<p>Canada also interned their citizens of Japanese descent during WWII.</p>
+					<a class="content" href="http://colinschultz.wordpress.com/2012/07/13/11-things-you-didnt-know-about-canada/">Learn more >></a>
+				</li>
+			</ul>
+				<div id="leftcontent">
 					<h2>Their Prime Minister...</h2>
-					<img src="./images/canadaflagorig.png" alt="Flag of Canada" WIDTH = 628 HEIGHT = 360>
-					<p>...can technically rule FOREVER!!</p>
+					<div class="leftcontent">
+						<img src="./images/canadaflagshort.png" alt="Flag of Canada" WIDTH = 628 HEIGHT = 360>
+						<p>...can technically rule FOREVER!!</p>
+					</div>
 				</div>
 				<!--end of leftcontent-->
-			
 
 				<div id="sidebar"> 
+					<h2>More on Canada!</h2>
 					<ul>
 						<li>
 							<h3>Independence</h3>
-							<img src="./images/canadaflag1.3.png" alt="Flag of Canada" WIDTH = 80 HEIGHT = 80 style="float: left" /> <p>Canada gained independence only 30 years ago. Just a bit late to the party! but technically, the queen's still in charge. </p> 
+								<div class = "i-b">
+									<img src="./images/canadaflagsquare.png" alt="Flag of Canada" WIDTH = 80 HEIGHT = 80> 
+								</div>	
+								<div class = "i-b">
+									<p class = "thumbnailtext">Canada gained independence only 30 years ago. Just a bit late to the party!</p> 
+								</div>			
 						</li>
-
 						<li>
 							<hr>
 							<h3>Invasion</h3>
-							<img src="./images/canadaflag2.3.png" alt="Flag of Canada" WIDTH = 80 HEIGHT = 80 style="float: left" />
-							<p>During the War of 1812, American forces attempted to invade Canada, expecting to be welcomed as liberators. They were repelled. </p> <hr>
+							<div class = "i-b">
+								<img src="./images/canadaflagsquare.png" alt="Flag of Canada" WIDTH = 80 HEIGHT = 80>
+							</div>
+							<div class = "i-b">
+								<p class = "thumbnailtext">During the War of 1812, American forces attempted to invade Canada, expecting to be welcomed as liberators. They were repelled. </p> 
+							</div>
 						</li>
 						<li>
+							<hr>
 							<h3>Internment</h3>
-							<img src="./images/canadaflag3.3.png" alt="Flag of Canada" WIDTH = 80 HEIGHT = 80 style="float: left" />
-							<p>Canada also interned their citizens of Japanese descent during WWII.</p>
+							<div class = "i-b">
+								<img src="./images/canadaflagsquare.png" alt="Flag of Canada" WIDTH = 80 HEIGHT = 80>
+							</div>
+							<div class = "i-b">
+								<p class = "thumbnailtext">Canada also interned their citizens of Japanese descent during WWII.</p>
+							</div>
 						</li>
 					</ul>
 				</div>
-				<!--end of div#sidebar-->	
-			</fieldset>
-			</div>
-			<!--end of div.content#bottom>
+				<!-- end of div#sidebar-->	
+		</div>
+		<!--end of div.wrap-->
 	</div>
-	<!-- end of div#wrap -->	
+	<!-- end of div.content -->	
 </body>
 </html>
